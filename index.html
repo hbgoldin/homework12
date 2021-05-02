@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 12 - CSS Accessibility</title>
+    <link rel="stylesheet" href="https://use.typekit.net/nnc1jzj.css">
+    <script src="https://kit.fontawesome.com/2c5d85ceca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Do's and Don'ts of Web Accessibility</h1>
+
+<h2>Images should always have specific alt tags:</h2>
+
+<div class="center">
+<img src="https://ae01.alicdn.com/kf/HTB1mQsIXIfrK1RkSnb4q6xHRFXaj/Handmade-Oil-paintings-lovers-Romantic-figure-art-Gustav-Klimt-The-kiss-Painting-on-canvas-beautiful-image.jpg" alt="Painting by Kustav Klimt titled 'The Kiss' featuring bright golden colors and a man kissing the cheek of a woman.">
+
+<img src="https://s3.amazonaws.com/libapps/accounts/39878/images/Botticelli-The-Birth-of-Venus-c.-1482.jpg" alt="Painting by Sandro Botticelli titled 'Birth of Venus' portraying the goddess Venus as she emerges from the ocean nude and fully grown">
+
+<img src="https://i.pinimg.com/originals/e2/c1/ef/e2c1ef737e76e9202f962b3bd8a2ceaa.jpg" alt="Painting by Edvard Munch titled 'The Scream' which portrays an abstract scene of a figure screaming on a bridge">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" alt="Painting by Leonardo da Vinci titled 'Mona Lisa' featuring the portrait of a seated women with brown hair and a neutral expression">
+
+<img src="https://render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/1/van-gogh-starry-night-vincent-van-gogh.jpg?&targetx=0&targety=-29&imagewidth=700&imageheight=558&modelwidth=700&modelheight=500&backgroundcolor=4E91E1&orientation=0" alt="Painting by Van Gogh titled 'Starry Night' featuring abstract, swirling brush strokes portraying a night sky overlooking a small village">
+</div>
+
+<h2>Colors that lack in contrast or cause eye strain should be avoided. Colorblind users should also be considered during the design process.</h2>
+<ul class="fa-ul">
+    <li><span aria-label="X" class="fa-li"><i class="fas fa-times-circle"></i></span> <span class="yellow">Yellow</span></li>
+    <li><span aria-label="X" class="fa-li"><i class="fas fa-times-circle"></i></span> <span class="grey">Light Grey</span></li>
+    <li><span aria-label="X" class="fa-li"><i class="fas fa-times-circle"></i></span> <span class="cyan">Cyan</span></li>
+</ul>
+
+<h2>Fonts should be easily read by users with various levels of visual abilities. Decorative fonts should only be used as headers --if at all.</h2>
+<ul class="fa-ul">
+    <li class="Eaves"><span aria-label="Checkmark" class="fa-li"><i class="fas fa-check-circle"></i></span>Mrs. Eaves XL Serif</li>
+    <li><span aria-label="Checkmark" class="fa-li"><i class="fas fa-check-circle"></i></span>Proxima Nova</li>
+    <li ><span aria-label="X"  class="fa-li"><i class="fas fa-times-circle"></i></span><span class="iron">Ironwood</span></li>
+    <li><span aria-label="X"  class="fa-li"><i class="fas fa-times-circle"></i></span><span class="Nep">Neplus</span></li>
+</ul>
+
+
+</body>
+</html>

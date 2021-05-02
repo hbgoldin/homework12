@@ -1,0 +1,53 @@
+body {
+  font-family: "Proxima Nova";
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body h1 {
+  display: block;
+  text-align: center;
+}
+body li {
+  line-height: 38px;
+  font-size: 18px;
+}
+.Eaves {
+  font-family: "mrs-eaves-xl-serif";
+}
+.iron {
+  font-family: "ironwood-std";
+  font-size: 30px;
+}
+.Nep {
+  font-family: "neplus";
+  font-size: 40px;
+}
+.fa-times-circle {
+  color: #cd0000;
+}
+.fa-check-circle {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.grey {
+  color: #efefef;
+}
+.cyan {
+  color: cyan;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  align-items: center;
+}
+.center img {
+  width: 50%;
+  height: 50%;
+  justify-content: space-evenly;
+  margin: 0 10px;
+}
+/*# sourceMappingURL=style.css.map */
